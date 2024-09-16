@@ -1,20 +1,25 @@
 <template>
   <div style="margin-bottom: 80px;">
-    <h1>Hello!</h1>
+    <h1>Bonjour !</h1>
 
     <div class="paragraph">
       <div>
-        I'm <strong>John Matrix</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br/>
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in shape.
+        Je m'appelle <strong>Axel Taillat</strong>, je suis un étudiant/développeur spécialisé dans le jeu vidéo au niveau bac+3.<br/>
+        Je suis un développeur de jeux passionné et j'aime discuter, concevoir et développer des applications et des jeux en général.
       </div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
+      <div style="margin-top: 20px;">
+        J'ai réalisé et suis en cours de réalisations de plusieurs  <router-link to="/game-projects">jeux</router-link> ainsi que divers autres <router-link to="/other-projects">projets</router-link>, et ai pu participer au développement de projets dans <router-link to="/resume">quelques entreprises</router-link>.<br/>
+      </div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through here</router-link>.</div>
+      <div style="margin-top: 40px;">
+        Je suis actuellement à la recherche d'une <strong>alternance</strong> de 2 ans pour continuer mes études en Master.<br/>
+        Vous pouvez me joindre via mail à l'adresse <a href="mailto:axeltailla@gmail.com">axeltailla@gmail.com</a> ou dans la section <router-link to="/contact">contact</router-link>.
+      </div>
     </div>
 
     <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of John" /> 
+      <img src="img/icon300.png" alt="Avatar d'Axel" /> 
     </div>
 
     <div style="clear:both"></div>

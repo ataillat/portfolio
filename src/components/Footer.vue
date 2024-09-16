@@ -1,3 +1,4 @@
+<!--
 <template>
   <div class="footer">
     
@@ -50,3 +51,4 @@ export default Vue.extend({
   }
 }
 </style>
+-->

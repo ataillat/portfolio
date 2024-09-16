@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h1>Other stuff</h1>
+    <h1>Autres Projets</h1>
 
     <div style="margin-bottom: 30px;">
-      And here are some other stuff I've made or heavily contributed to, which are totally different than the stuff from earlier.
+      Et voici quelques autres projets que j'ai fait ou auxquelles j'ai grandement contribué.
     </div>
     <ProjectsList v-bind:projects="projects" />
   </div>

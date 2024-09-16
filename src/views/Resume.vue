@@ -1,104 +1,115 @@
 <template>
   <div>
-    <h1>Resume</h1>
+    <h1>CV</h1>
 
     <div class="paragraph">
-      I'm <strong>John Matrix</strong>, a former Delta Force operative with lots of experience, lots of training and huge muscles.
-      <br />After graduating from kindergarten, I've been enrolled in the army for 25 years, where I learned to destroy things in an amazing number of ways.
-      <br />I joined the Delta Force because I thought it was Greek lessons, but I quickly adapted to this unexpected environment and became a key element.
-      <br />I love teamwork, but I can also go in solo depending on the mission requirements.
+      Je m'appelle <strong>Axel Taillat</strong>,
+      <br />Étudiant en 3e année Gaming Campus à Lyon.
+      <br />Je suis passionné par la création de jeux vidéo, j'ai une bonne maîtrise du moteur Unreal Engine et Unity.
       <br />
-      <br />Right now I'm trying to find inner peace after I've read some personal development books. I'm looking for a monk job so if you have any opportunity feel free to 
-      <router-link to="/contact">contact me</router-link>.
+      <br />Je suis actuellement à la recherche d'une <strong>alternance</strong> si vous avez une opportunité, n'hésitez pas à 
+      <router-link to="/contact">me contacter</router-link>.
       <br />
-      <br />Besides war, I'm passionate about firearms, martial arts, explosions, push-ups and flowers.
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
-        <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF 🇫🇷</a>
+        <a class="download-link" href="d/CV_2024-2025.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF</a>
         <div style="clear:both"></div>
       </div>
     </div>
     <div class="photo">
-      <img src="img/resume-photo.png" alt="Photo of John" />
+      <img src="img/TAILLAT-Axel.png" alt="Photo of John" />
     </div>
 
     <div style="clear:both"></div>
 
+    <!-- -->
     <div class="full-content">
-      <h2>Work experience</h2>
+      <h2>Expériences</h2>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2018-2019</h4>
+      <h3>Jeux vidéos</h3>
 
-      <div>It's classified so I can't speak about it.</div>
+      <h4>Développeur jeu mobile</h4>
+      <div>WIP, Développement de Rise Beyond</div>
+      <div class="tech-stack">Unity, C#, travail en équipe</div>
 
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <h4>Développeur Java</h4>
+      <div>2021, Développement du jeu de société <strong>Le Labyrinthe</strong></div>
+      <div class="tech-stack">Java, travail en équipe</div>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2015-2017</h4>
+      <h3>Autres développements</h3>
 
-      <div>It's classified so I can't speak about it.</div>
+      <h4>Développeur C++ chez Sodimas</h4>
+      <div>2024, Stage de développement sur un algorithme de prédestination d'une batterie d'ascensseurs</div>
+      <div class="tech-stack">C++, travail en entreprise</div>
 
-      <div class="tech-stack">Even more Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <h4>Développeur React, Javascript chez G-Studio</h4>
+      <div>2023, Missions bénévole de développement d’un site internet marchant</div>
+      <div class="tech-stack">React, Javascript, travail en équipe</div>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2012-2015</h4>
+      <h4>Développeur C# et .Net chez IP-Garde</h4>
+      <div>2022, Stage de développement et découverte d'entreprise</div>
+      <div class="tech-stack">C#, .Net, travail en entreprise</div>
 
-      <div>It's classified so I can't speak about it.</div>
 
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <h2>Formations</h2>
 
-      <h2>Skills</h2>
+      <h4>2022-2024, Bachelor Développeur Informatique, option jeu vidéo</h4>
+      <div>Gaming Campus, G-TECH, Lyon</div>
 
+      <h4>2020-2022, DUT Informatique</h4>
+      <div>IUT de Valence</div>
+
+      <h4>Baccalauréat S SI option informatique</h4>
+      <div>lycée Camille Vernet, Valence</div>
+
+
+      <h2>Compétences</h2>
+
+      <h3>Langages</h3>
+      <h4>Programmation :</h4>
+      <div>C#, C++, C, Python, Java, SQL</div>
+      <h4>Développement web :</h4>
+      <div>HTML/CSS, PHP, JavaScript</div>
+
+      <h3>Outils</h3>
+      <h4>Moteurs :</h4>
+      <div>Unity, Unreal Engine</div>
+      <h4>Systèmes :</h4>
+      <div>Windows, Linux</div>
+      <h4>Base de donnée :</h4>
+      <div>MySQL, PostgreSQL, SQL serveur</div>
+      <h4>Organisation de projets :</h4>
+      <div>GitHub, GitLab</div>
+
+      <h3>Gestion de projet</h3>
+      <h4>Comptabilité générale :</h4>
+      <div>Création d'entreprise</div>
+      <h4>Planification :</h4>
+      <div>diagramme de Gantt</div>
+
+      <h3>Langues</h3>
       <div class="skill-set">
-        <h3>Lethal</h3>
-        <SkillRate name="Handguns" :rate="5" />
-        <SkillRate name="Rifles" :rate="5" />
-        <SkillRate name="Shotguns" :rate="5" />
-        <SkillRate name="Machineguns" :rate="5" />
-        <SkillRate name="Missile launchers" :rate="5" />
-        <SkillRate name="Knives" :rate="5" />
-        <SkillRate name="Hand to hand combat" :rate="5" />
-      </div>
-
-      <div class="skill-set">
-        <h3>Non-lethal</h3>
-        <SkillRate name="Sneaking" :rate="1" />
-        <SkillRate name="Negotiation" :rate="1" />
-        <SkillRate name="Seduction" :rate="1" />
-        <SkillRate name="Sense of humor" :rate="2" />
+        <SkillRate name="Français (maternelle)" :rate="5" />
+        <SkillRate name="Anglais (B2)" :rate="4" />
+        <SkillRate name="Espagnol (B1)" :rate="2" />
+        <SkillRate name="Japonais (apprentissage)" :rate="1" />
       </div>
       <div style="clear:both" />
 
-      <h2>Education</h2>
 
-      <h3>Kindergarten - 1985</h3>
-      <h4>Kindergarten degree</h4>
-      <div>Specialty in bullying and fighting (58 wins, 58 K-O, 0 losses)</div>
-
-      <h2>Languages</h2>
-
-      <h3>American</h3>
-      <div>Basic knowledge but I know lots of one-liners</div>
-
-      <h3>That's it</h3>
-      <div>Who needs another language when you speak American?</div>
-
-
-      <h2>Besides...</h2>
+      <h2>À part ça ...</h2>
       <div>
-        <h3>I ❤️ Violence</h3>
-        <div>I find it really soothing to just shoot at bad guys</div>
+        <h3>❤️ saga Monster Hunter</h3>
+        <div>je suis fan inconditionnel de la saga Monster Hunter</div>
 
-        <h3>I 🧡 Sports</h3>
-        <div>I used to be thin but then I ingested 10 kilos of steroids and proteins a day while doing 1000 push-ups.</div>
+        <h3>🧡 Magic the Gathering</h3>
+        <div>je joue à des jeux de cartes stratégiques</div>
 
-        <h3>I 💛 Politics</h3>
-        <div>I hope I can have a career here someday but I might have temper issues.</div>
+        <h3>💛 Basket</h3>
+        <div>j'aime un peu tout les sports mais ai une préférence pour le basket</div>
 
-        <h3>I 💚 Flowers</h3>
-        <div>Especially the big ones, with the trunk and leaves.</div>
+        <h3>💚 jeux de société</h3>
+        <div>de plateaux, avec ou sans dés, tout me vas</div>
 
       </div>
     </div>
