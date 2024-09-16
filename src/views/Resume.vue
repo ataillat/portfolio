@@ -26,7 +26,7 @@
     <div class="full-content">
       <h2>Expériences</h2>
 
-      <h3>Jeux vidéos</h3>
+      <h3>Jeux vidéo</h3>
 
       <h4>Développeur jeu mobile</h4>
       <div>WIP, Développement de Rise Beyond</div>
@@ -39,7 +39,7 @@
       <h3>Autres développements</h3>
 
       <h4>Développeur C++ chez Sodimas</h4>
-      <div>2024, Stage de développement sur un algorithme de prédestination d'une batterie d'ascensseurs</div>
+      <div>2024, Stage de développement sur un algorithme de prédestination d'une batterie d'ascenseurs</div>
       <div class="tech-stack">C++, travail en entreprise</div>
 
       <h4>Développeur React, Javascript chez G-Studio</h4>
@@ -60,7 +60,7 @@
       <div>IUT de Valence</div>
 
       <h4>Baccalauréat S SI option informatique</h4>
-      <div>lycée Camille Vernet, Valence</div>
+      <div>Lycée Camille Vernet, Valence</div>
 
 
       <h2>Compétences</h2>
@@ -76,7 +76,7 @@
       <div>Unity, Unreal Engine</div>
       <h4>Systèmes :</h4>
       <div>Windows, Linux</div>
-      <h4>Base de donnée :</h4>
+      <h4>Base de données :</h4>
       <div>MySQL, PostgreSQL, SQL serveur</div>
       <h4>Organisation de projets :</h4>
       <div>GitHub, GitLab</div>
@@ -85,7 +85,7 @@
       <h4>Comptabilité générale :</h4>
       <div>Création d'entreprise</div>
       <h4>Planification :</h4>
-      <div>diagramme de Gantt</div>
+      <div>Diagramme de Gantt</div>
 
       <h3>Langues</h3>
       <div class="skill-set">
@@ -99,17 +99,17 @@
 
       <h2>À part ça ...</h2>
       <div>
-        <h3>❤️ saga Monster Hunter</h3>
-        <div>je suis fan inconditionnel de la saga Monster Hunter</div>
+        <h3>J'❤️ Monster Hunter</h3>
+        <div>Je suis fan inconditionnel de la saga Monster Hunter.</div>
 
-        <h3>🧡 Magic the Gathering</h3>
-        <div>je joue à des jeux de cartes stratégiques</div>
+        <h3>J'🧡 Magic the Gathering</h3>
+        <div>Je joue à des jeux de cartes stratégiques.</div>
 
-        <h3>💛 Basket</h3>
-        <div>j'aime un peu tout les sports mais ai une préférence pour le basket</div>
+        <h3>J'💛 le Basket</h3>
+        <div>J'aime un peu tous les sports, mais ai une préférence pour le basket.</div>
 
-        <h3>💚 jeux de société</h3>
-        <div>de plateaux, avec ou sans dés, tout me vas</div>
+        <h3>J'💚 les jeux de société</h3>
+        <div>Qu'ils soient de plateaux, avec ou sans dés, tout me va.</div>
 
       </div>
     </div>
