@@ -9,7 +9,7 @@
       </div>
 
       <div style="margin-top: 20px;">
-        J'ai réalisé et suis en cours de réalisations de plusieurs  <router-link to="/game-projects">jeux</router-link> ainsi que divers autres <!--<router-link to="/other-projects">-->projets<!--</router-link>-->, et ai pu participer au développement de projets dans <router-link to="/resume">quelques entreprises</router-link>.<br/>
+        J'ai réalisé et suis en cours de réalisations de plusieurs  <router-link to="/game-projects">jeux</router-link> ainsi que divers autres projets, et ai pu participer au développement de projets dans <router-link to="/resume">quelques entreprises</router-link>.<br/>
       </div>
 
       <div style="margin-top: 40px;">
