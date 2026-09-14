@@ -5,7 +5,7 @@
 
     <div style="margin-bottom:40px;">
       Je suis à la recherche d'une alternance !<br/>
-      N'hésitez pas à me contacter pour toute opportunité, ou simplement pour discuter de jeux, de développement ou de tout autre chose.
+      N'hésitez pas à me contacter pour toute opportunité, ou simplement pour discuter de jeux, de développement ou de toute autre chose.
     </div>
 
     <ul>
@@ -31,7 +31,7 @@
       </li>
       <li>
         <i class="fa fa-steam fa-lg fa-fw"></i>
-        <a href="https://steamcommunity.com/id/Aegnor615" target="_blank">steam.com/Aegnor615</a>
+        <a href="https://steamcommunity.com/id/Acksel_" target="_blank">steam.com/Acksel_</a>
       </li>
     </ul>
 
@@ -45,9 +45,13 @@ ul {
 }
 
 li {
-    line-height: 1.8em;
-    font-size: 1.2em;
-  }
+  line-height: 1.8em;
+  font-size: 1.2em;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
 
 @media only screen and (min-width: 620px){
   ul {

@@ -3,9 +3,7 @@
     <div class="nav-bar">
       <router-link to="/">À propos de moi</router-link>
       <router-link to="/game-projects">Jeux</router-link>
-      <!--
-      <router-link to="/other-projects">Autres Projets</router-link>
-      -->
+      <router-link to="/projets-pro">Projets Pro</router-link>
       <router-link to="/resume">CV</router-link>
       <router-link to="/contact">Contact</router-link>
     </div>

@@ -4,16 +4,16 @@
 
     <div class="paragraph">
       <div>
-        Je m'appelle <strong>Axel Taillat</strong>, je suis un étudiant/développeur spécialisé dans le jeu vidéo au niveau bac+3.<br/>
-        Je suis un développeur de jeux passionné et j'aime discuter, concevoir et développer des applications et des jeux en général.
+        Je m'appelle <strong>Axel Taillat</strong>, je suis un développeur spécialisé dans les applications et le jeu vidéo.<br/>
+        Je suis un joueur et développeur passionné, créatif et j'aime discuter, concevoir et développer des applications et des jeux.
       </div>
 
       <div style="margin-top: 20px;">
-        J'ai réalisé et suis en cours de réalisations de plusieurs  <router-link to="/game-projects">jeux</router-link> ainsi que divers autres projets, et ai pu participer au développement de projets dans <router-link to="/resume">quelques entreprises</router-link>.<br/>
+        J'ai réalisé plusieurs <router-link to="/game-projects">jeux</router-link> ainsi que divers autres projets, et ai pu participer au développement de projets dans <router-link to="/resume">quelques entreprises</router-link>.<br/>
       </div>
 
       <div style="margin-top: 40px;">
-        Je suis actuellement à la recherche d'une <strong>alternance</strong> de 2 ans pour continuer mes études en Master.<br/>
+        Je suis actuellement à la recherche d'un travail (CDI ou CDD), pas forcément dans le jeu vidéo mais ce serait un plus.<br/>
         Vous pouvez me joindre via mail à l'adresse <a href="mailto:axeltailla@gmail.com">axeltailla@gmail.com</a> ou dans la section <router-link to="/contact">contact</router-link>.
       </div>
     </div>
@@ -31,6 +31,15 @@
 .paragraph {
   max-width: 700px;
   margin-bottom: 20px;
+}
+
+.paragraph a {
+  color: #f29d0d;
+  opacity: 1;
+}
+
+.paragraph a:hover {
+  text-decoration: underline;
 }
 
 .photo {

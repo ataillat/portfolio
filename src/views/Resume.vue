@@ -4,15 +4,14 @@
 
     <div class="paragraph">
       Je m'appelle <strong>Axel Taillat</strong>,
-      <br />Étudiant en 3e année Gaming Campus à Lyon.
-      <br />Je suis passionné par la création de jeux vidéo, j'ai une bonne maîtrise du moteur Unreal Engine et Unity.
+      <br />Je suis passionné par la création de jeux vidéo.
       <br />
-      <br />Je suis actuellement à la recherche d'une <strong>alternance</strong> si vous avez une opportunité, n'hésitez pas à 
-      <router-link to="/contact">me contacter</router-link>.
+      <br />Je suis actuellement à la recherche d'un <strong>CDI</strong> ou <strong>CDD</strong>.
+      <br />Si mon profil vous intéresse, n'hésitez pas à <router-link to="/contact">me contacter</router-link>.
       <br />
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/CV_2024-2025.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF</a>
+        <a class="download-link" href="d/CV%202026%20-%20Axel%20Taillat.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF</a>
         <div style="clear:both"></div>
       </div>
     </div>
@@ -38,17 +37,21 @@
 
       <h3>Autres développements</h3>
 
+      <h4>Développeur d’applications C# chez Sodimas</h4>
+      <div>2025/2026, Mission d'intérim pour le développement d'outils et d'applications</div>
+      <div class="tech-stack">C#, travail en entreprise</div>
+
       <h4>Développeur C++ chez Sodimas</h4>
       <div>2024, Stage de développement sur un algorithme de prédestination d'une batterie d'ascenseurs</div>
       <div class="tech-stack">C++, travail en entreprise</div>
 
-      <h4>Développeur React, Javascript chez G-Studio</h4>
-      <div>2023, Missions bénévole de développement d’un site internet marchant</div>
-      <div class="tech-stack">React, Javascript, travail en équipe</div>
+      <h4>Développeur React, JavaScript chez G-Studio</h4>
+      <div>2023, Mission bénévole de développement d’un site internet marchand</div>
+      <div class="tech-stack">React, JavaScript, travail en équipe</div>
 
-      <h4>Développeur C# et .Net chez IP-Garde</h4>
+      <h4>Développeur C# et .NET chez IP-Garde</h4>
       <div>2022, Stage de développement et découverte d'entreprise</div>
-      <div class="tech-stack">C#, .Net, travail en entreprise</div>
+      <div class="tech-stack">C#, .NET, travail en entreprise</div>
 
 
       <h2>Formations</h2>
@@ -109,7 +112,7 @@
         <div>J'aime un peu tous les sports, mais ai une préférence pour le basket.</div>
 
         <h3>J'💚 les jeux de société</h3>
-        <div>Qu'ils soient de plateaux, avec ou sans dés, tout me va.</div>
+        <div>Qu'ils soient de plateaux, de cartes ou de dés, je suis chaud pour une partie.</div>
 
       </div>
     </div>
@@ -154,6 +157,15 @@ h4 {
 
 .paragraph {
   max-width: 700px;
+}
+
+.paragraph a {
+  color: #f29d0d;
+  opacity: 1;
+}
+
+.paragraph a:hover {
+  text-decoration: underline;
 }
 
 .download-link {
